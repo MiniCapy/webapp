@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  background: linear-gradient(145deg,#0f0c29,#302b63);
+  font-family: system-ui;
+  color: white;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 16px;
+  font-size: 20px;
+  backdrop-filter: blur(14px);
+  background: rgba(255,255,255,0.05);
+}
+
+#chat {
+  flex: 1;
+  padding: 12px;
+  overflow-y: auto;
+}
+
+.msg {
+  margin-bottom: 8px;
+  padding: 10px 14px;
+  border-radius: 14px;
+  max-width: 80%;
+  backdrop-filter: blur(12px);
+  background: rgba(255,255,255,0.12);
+}
+
+.me {
+  margin-left: auto;
+  background: rgba(124,77,255,0.35);
+}
+
+.input {
+  display: flex;
+  padding: 10px;
+  backdrop-filter: blur(16px);
+  background: rgba(0,0,0,0.35);
+}
+
+input {
+  flex: 1;
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  outline: none;
+}
+
+button {
+  margin-left: 10px;
+  border: none;
+  border-radius: 12px;
+  padding: 0 16px;
+  background: #7c4dff;
+  color: white;
+}
